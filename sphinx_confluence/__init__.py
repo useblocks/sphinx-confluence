@@ -561,6 +561,6 @@ def setup(app):
     app.add_role(jira_user.name, jira_user)
 
     app.add_directive('image', ImageConf)
-    app.add_directive('toctree', TocTree)
+    #app.add_directive('toctree', TocTree)
     app.add_directive('jira_issues', JiraIssuesDirective)
     app.add_builder(JSONConfluenceBuilder)
