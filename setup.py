@@ -25,4 +25,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
+    entry_points={
+        'sphinx_themes': ['confluence = sphinx_confluence:get_path']}
 )
